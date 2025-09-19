@@ -274,3 +274,5 @@ extension HFlow: Layout, Sendable where Content == EmptyView {
         HFlowLayout.layoutProperties
     }
 }
+
+extension HFlow: @unchecked Sendable where Content: Sendable {}
